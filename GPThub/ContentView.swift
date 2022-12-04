@@ -8,14 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @AppStorage(K.Storage.frameHeight) var frameHeight: Double = K.Storage.defaultHeight
+    @AppStorage(K.Storage.frameWidth) var frameWidth: Double = K.Storage.defaultWidth
+    
     var body: some View {
-        VStack(spacing: 0) {
-            Text(K.appName)
-                .font(.title2)
-                .padding(.top)
-            WebView()
-                .padding()
-        }
+        WebView()
+            .frame(width: (NSScreen.main?.frame.width ?? 1000) * frameWidth,
+                   height: (NSScreen.main?.frame.height ?? 1000) * frameHeight)
     }
 }
 

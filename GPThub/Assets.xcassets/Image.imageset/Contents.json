@@ -11,7 +11,7 @@
           "value" : "light"
         }
       ],
-      "filename" : "openai Clear Black.png",
+      "filename" : "16.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
@@ -22,7 +22,7 @@
           "value" : "dark"
         }
       ],
-      "filename" : "openai Clear White.png",
+      "filename" : "openai Clear White 16.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
@@ -37,6 +37,7 @@
           "value" : "light"
         }
       ],
+      "filename" : "32.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
@@ -47,6 +48,7 @@
           "value" : "dark"
         }
       ],
+      "filename" : "openai Clear White 32.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
@@ -61,6 +63,7 @@
           "value" : "light"
         }
       ],
+      "filename" : "64.png",
       "idiom" : "universal",
       "scale" : "3x"
     },
@@ -71,6 +74,7 @@
           "value" : "dark"
         }
       ],
+      "filename" : "openai Clear White 64.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

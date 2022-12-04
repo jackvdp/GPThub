@@ -6,12 +6,17 @@
 //
 
 import SwiftUI
+import AppKit
 
 @main
 struct GPThubApp: App {
     var body: some Scene {
-        MenuBarExtra(K.appName, image: K.menuImage) {
+        MenuBarExtra(K.App.name, image: "Image") {
             ContentView()
+        }
+        .menuBarExtraStyle(.window)
+        Settings {
+            SettingsView()
         }
     }
 }

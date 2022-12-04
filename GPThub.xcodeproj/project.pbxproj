@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C0ACF08C293CBBE100A07676 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ACF08B293CBBE100A07676 /* SettingsView.swift */; };
 		C0DB9D81293CA5080022972F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DB9D80293CA5080022972F /* Constants.swift */; };
 		C0F92956293BE98600E5EE01 /* GPThubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F92955293BE98600E5EE01 /* GPThubApp.swift */; };
 		C0F92958293BE98600E5EE01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F92957293BE98600E5EE01 /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C0ACF08B293CBBE100A07676 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		C0DB9D80293CA5080022972F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C0DB9D82293CA67C0022972F /* GPThub.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GPThub.entitlements; sourceTree = "<group>"; };
 		C0F92952293BE98600E5EE01 /* GPThub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPThub.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,6 +61,7 @@
 				C0F92955293BE98600E5EE01 /* GPThubApp.swift */,
 				C0F92957293BE98600E5EE01 /* ContentView.swift */,
 				C0F92980293BEDE000E5EE01 /* WebView.swift */,
+				C0ACF08B293CBBE100A07676 /* SettingsView.swift */,
 				C0DB9D80293CA5080022972F /* Constants.swift */,
 				C0DB9D82293CA67C0022972F /* GPThub.entitlements */,
 				C0F92959293BE98700E5EE01 /* Assets.xcassets */,
@@ -145,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0ACF08C293CBBE100A07676 /* SettingsView.swift in Sources */,
 				C0F92981293BEDE000E5EE01 /* WebView.swift in Sources */,
 				C0F92958293BE98600E5EE01 /* ContentView.swift in Sources */,
 				C0F92956293BE98600E5EE01 /* GPThubApp.swift in Sources */,
@@ -283,7 +287,6 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -313,7 +316,6 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

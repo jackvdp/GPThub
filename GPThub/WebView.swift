@@ -13,15 +13,11 @@ struct WebView: NSViewRepresentable {
     
     typealias NSViewType = WKWebView
     
-    let webView: WKWebView
-    
-    init() {
-        webView = WKWebView(frame: .zero)
-        webView.load(URLRequest(url: URL(string: K.gptURL)!))
-    }
+    let webView = WKWebView(frame: .zero)
     
     func makeNSView(context: Context) -> WKWebView {
-        webView
+        webView.load(URLRequest(url: URL(string: K.URL.gpt)!))
+        return webView
     }
     
     func updateNSView(_ nsView: WKWebView, context: Context) {
