@@ -51,7 +51,7 @@ struct GeneralSettingsView: View {
                 .opacity(0.7)
                 .padding(2)
                 .frame(width: 40)
-                .background(Color.white)
+                .background(Color.secondary.colorInvert())
         }
     }
     
