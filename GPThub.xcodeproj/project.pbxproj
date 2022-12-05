@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C06AC435293DFEA4009E313F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C06AC434293DFEA4009E313F /* Info.plist */; };
 		C0ACF08C293CBBE100A07676 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ACF08B293CBBE100A07676 /* SettingsView.swift */; };
 		C0DB9D81293CA5080022972F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DB9D80293CA5080022972F /* Constants.swift */; };
 		C0F92956293BE98600E5EE01 /* GPThubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F92955293BE98600E5EE01 /* GPThubApp.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C06AC434293DFEA4009E313F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0ACF08B293CBBE100A07676 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		C0DB9D80293CA5080022972F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C0DB9D82293CA67C0022972F /* GPThub.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GPThub.entitlements; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				C0DB9D80293CA5080022972F /* Constants.swift */,
 				C0DB9D82293CA67C0022972F /* GPThub.entitlements */,
 				C0F92959293BE98700E5EE01 /* Assets.xcassets */,
+				C06AC434293DFEA4009E313F /* Info.plist */,
 				C0F9295B293BE98700E5EE01 /* Preview Content */,
 			);
 			path = GPThub;
@@ -138,6 +141,7 @@
 			files = (
 				C0F9295D293BE98700E5EE01 /* Preview Assets.xcassets in Resources */,
 				C0F9295A293BE98700E5EE01 /* Assets.xcassets in Resources */,
+				C06AC435293DFEA4009E313F /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +291,9 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GPThub/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -317,7 +323,9 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GPThub/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
